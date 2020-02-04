@@ -1,0 +1,74 @@
+body {
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 25px;
+   color: white;
+   background-color: black;
+   }
+   
+   p {
+    margin: 0px;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 800;
+  }
+
+   #searchData {
+     width: 50%;
+   }
+   
+   #search-form {
+    margin-right: 80px;
+  }
+   .search-item {
+     margin-left: 250px;
+     padding: 10px;
+   }
+   
+   form {
+     float: right;
+     width: 30%;
+     padding: 20px;
+   }
+   
+  input[type="text"] {
+     width: 75%;
+     height: 25px;
+     margin-bottom: 10px;
+     font-size: 15px;
+   }
+   
+   button,
+   input[type="submit"] {
+     padding: 5px 10px;
+     margin: 0 5px 5px 0;
+     font-size: 15px;
+     color: rgb(194, 22, 22);
+     cursor: pointer;
+     background: whitesmoke; 
+     border: 0;
+     border-radius: 5px;
+     box-shadow: 2px 2px 3px gray;
+   }
+   
+   #buttons {
+    margin-top: 0px;
+    margin-left: 100px;
+  }
+
+   button:hover,
+   input[type="submit"]:hover {
+     background: orange; 
+   }
+   
+   button.active {
+     background: #29287e;
+   }
+ 
+   
+   
+ 
+   
