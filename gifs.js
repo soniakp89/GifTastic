@@ -1,5 +1,6 @@
 
-$(function(){
+
+ $(function(){
     renderButtons(topics, 'searchButton', '#buttons')
     console.log("page");
  })
@@ -32,7 +33,7 @@ $(function(){
     $('#searchData').empty();
     var type = $(this).data('type');
     var searchInput = $("#search-input").val();
-    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + SearchInput + "&api_key=AFyjNUmhcWjBBAqIW15Sjq9FERyn0ukR&limit10";
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + type + searchInput + "&api_key=AFyjNUmhcWjBBAqIW15Sjq9FERyn0ukR&limit=10";
 
     $.ajax({
         url: queryURL,
@@ -76,4 +77,3 @@ $(function(){
     renderButtons(topics, 'searchButton', '#buttons');
     return false;
  })
- 
