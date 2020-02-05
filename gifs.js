@@ -32,7 +32,7 @@ $(function(){
     $('#searchData').empty();
     var type = $(this).data('type');
     var searchInput = $("#search-input").val();
-    var queryURL = "https://api.giphy.com/v1/gifs/search?api_key=AFyjNUmhcWjBBAqIW15Sjq9FERyn0ukR&q=anime&limit=10&offset=0&rating=PG-13&lang=en"
+    var queryURL = "https://api.giphy.com/v1/gifs/search?api_key=AFyjNUmhcWjBBAqIW15Sjq9FERyn0ukR&q=anime&limit=10&offset=0&rating=PG-13&lang=en";
 
     $.ajax({
         url: queryURL,
